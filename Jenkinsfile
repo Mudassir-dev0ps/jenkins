@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building new'
+                echo 'Building automatically because of SCM change'
             }
         }
  stage('Test') {
