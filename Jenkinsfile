@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building automatically because of SCM change'
+                echo 'Building automatically '
             }
         }
  stage('Test') {
             steps {
-                echo 'Testing new'
+                echo 'Testing automatically'
             }
         }
  stage('Deploy') {
             steps {
-                echo 'Deploying new'
+                echo 'Deploying automatically'
             }
         }
     }
