@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building automatically again '
-                echo 'Welcome Nisha '
+                echo 'Building automatically'
+               
             }
         }
  stage('Test') {
             steps {
-                echo 'Testing automatically again'
+                echo 'Testing automatically'
             }
         }
  stage('Deploy') {
