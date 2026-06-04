@@ -5,8 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building automatically'
-
-               
+                echo 'welcome to Bhutan'              
             }
         }
  stage('Test') {
