@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building automatically'
-                echo 'Mudassir here'
+
                
             }
         }
